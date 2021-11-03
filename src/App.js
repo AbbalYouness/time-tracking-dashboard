@@ -1,21 +1,7 @@
-import "./App.css";
+import "./App.scss";
 
 function App() {
-  return (
-    <div>
-      <div class="attribution">
-        Challenge by{" "}
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Frontend Mentor
-        </a>
-        . Coded by <a href="#">Your Name Here</a>.
-      </div>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
