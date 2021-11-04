@@ -6,4 +6,47 @@ html {
 
 body {
   font-family: var(--font-family);
+  color: white;
+  background-color: var(--very-dark-blue);
+}
+
+%base-background {
+  background-repeat: no-repeat;
+  background-position: 90% -5%;
+}
+
+.work-background {
+  background-color: var(--light-red-work);
+  background-image: url("../assets/icon-work.svg");
+  @extend %base-background;
+}
+
+.play-background {
+  background-color: var(--soft-blue-play);
+  background-image: url("../assets/icon-play.svg");
+  @extend %base-background;
+}
+
+.study-background {
+  background-color: var(--light-red-study);
+  background-image: url("../assets/icon-study.svg");
+  @extend %base-background;
+}
+
+.exercise-background {
+  background-color: var(--lime-green-exercise);
+  background-image: url("../assets/icon-exercise.svg");
+  @extend %base-background;
+}
+
+.social-background {
+  background-color: var(--violet-social);
+  background-image: url("../assets/icon-social.svg");
+  @extend %base-background;
+}
+
+.self-care-background {
+  background-color: var(--soft-orange-self-care);
+  background-image: url("../assets/icon-self-care.svg");
+  @extend %base-background;
 }

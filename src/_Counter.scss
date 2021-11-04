@@ -1,0 +1,40 @@
+.counter {
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 0;
+
+  > div {
+    padding: 1rem;
+    background: var(--dark-blue);
+    border-radius: var(--border-radius);
+    max-height: 80%;
+    transition: all 200ms;
+    &:hover {
+      background: hsl(235, 46%, 40%);
+      cursor: pointer;
+    }
+  }
+
+  .header-counter {
+    display: flex;
+    justify-content: space-between;
+    .counter-title {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .counter-current {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  .counter-previous {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: var(--pale-blue);
+    margin-bottom: 0.5rem;
+  }
+}
